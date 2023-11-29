@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 1"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 2"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sumar"
+        android:onClick="sumar"/>
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "/>
+
+</LinearLayout>
