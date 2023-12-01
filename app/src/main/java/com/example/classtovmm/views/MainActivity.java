@@ -1,4 +1,4 @@
-package com.example.classtovmm;
+package com.example.classtovmm.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.classtovmm.R;
 
 public class MainActivity extends AppCompatActivity {
 
